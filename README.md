@@ -39,6 +39,7 @@ This model was fine-tuned on 56 JSONL training examples across three task catego
 ---
 
 ## Project Structure
+
 ```text
 cnc-ai-assistant/
 ├── app.py
@@ -71,8 +72,11 @@ streamlit run app.py
 ```
 
 ### `.env` format
+
+```text
 OPENAI_KEY=sk-...
 MODEL_NAME=ft:gpt-4o-mini-2024-07-18:personal::DeCanFUu
+```
 
 ---
 
