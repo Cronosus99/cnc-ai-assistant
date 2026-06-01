@@ -20,7 +20,7 @@ A Streamlit web application powered by a fine-tuned GPT-4o Mini model trained on
 
 General-purpose LLMs lack deep knowledge of CNC-specific conventions — Fanuc modal codes, safe startup sequences, cutter radius compensation activation, and what constitutes a dangerous G-code pattern (e.g., a cutting move before spindle start).
 
-This model was fine-tuned on 56 hand-crafted JSONL training examples across three task categories, built specifically for this domain.
+This model was fine-tuned on 56 JSONL training examples across three task categories, synthetically generated using Claude (Anthropic) and reviewed for technical accuracy and Fanuc dialect consistency.
 
 - **Base model:** `gpt-4o-mini-2024-07-18`
 - **Fine-tuned model:** `ft:gpt-4o-mini-2024-07-18:personal::DeCanFUu`
