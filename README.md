@@ -38,6 +38,7 @@ This model was fine-tuned on 56 JSONL training examples across three task catego
 
 ---
 
+```text
 ## Project Structure
 cnc-ai-assistant/
 ├── app.py
@@ -49,6 +50,7 @@ cnc-ai-assistant/
 └── notebooks/
 ├── CNC_finetuning.ipynb
 └── training_data.jsonl
+```
 
 ## Local Setup
 
