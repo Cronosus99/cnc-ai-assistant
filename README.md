@@ -38,8 +38,8 @@ This model was fine-tuned on 56 JSONL training examples across three task catego
 
 ---
 
-```text
 ## Project Structure
+```text
 cnc-ai-assistant/
 ├── app.py
 ├── requirements.txt
