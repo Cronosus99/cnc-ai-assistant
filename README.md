@@ -1,0 +1,2 @@
+# cnc-ai-assistant
+
